@@ -10,7 +10,8 @@ namespace Model
 		{
 			UILoadingComponent self = this.Get();
 			self.text = self.GetEntity<UI>().GameObject.Get<GameObject>("Text").GetComponent<Text>();
-		}
+            self.slider = self.GetEntity<UI>().GameObject.Get<GameObject>("Slider").GetComponent<Slider>();
+        }
 
 		public async void Start()
 		{
@@ -33,12 +34,15 @@ namespace Model
 					continue;
 				}
 				self.text.text = $"{bundleDownloaderComponent.Progress}%";
-			}
+                self.slider.value = bundleDownloaderComponent.Progress;
+
+            }
 		}
 	}
 	
 	public class UILoadingComponent : Component
 	{
 		public Text text;
+        public Slider slider;
 	}
 }
