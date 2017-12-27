@@ -1,2 +1,0 @@
-E:\LandlordsCore\LandlordsCore-master\Unity\Hotfix\obj\Debug\Unity.Hotfix.csprojResolveAssemblyReference.cache
-E:\LandlordsCore\LandlordsCore-master\Unity\Hotfix\obj\Debug\Unity.Hotfix.csproj.CoreCompileInputs.cache

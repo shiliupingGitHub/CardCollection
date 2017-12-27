@@ -1,9 +1,0 @@
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\Model.deps.json
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\Model.dll
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\Model.pdb
-E:\LandlordsCore\LandlordsCore-master\Server\Model\obj\Debug\netcoreapp2.0\Server.Model.csprojResolveAssemblyReference.cache
-E:\LandlordsCore\LandlordsCore-master\Server\Model\obj\Debug\netcoreapp2.0\Server.Model.csproj.CoreCompileInputs.cache
-E:\LandlordsCore\LandlordsCore-master\Server\Model\obj\Debug\netcoreapp2.0\Server.Model.AssemblyInfoInputs.cache
-E:\LandlordsCore\LandlordsCore-master\Server\Model\obj\Debug\netcoreapp2.0\Server.Model.AssemblyInfo.cs
-E:\LandlordsCore\LandlordsCore-master\Server\Model\obj\Debug\netcoreapp2.0\Model.dll
-E:\LandlordsCore\LandlordsCore-master\Server\Model\obj\Debug\netcoreapp2.0\Model.pdb

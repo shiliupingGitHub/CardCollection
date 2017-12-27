@@ -1,9 +1,0 @@
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\netstandard2.0\MongoDB.Driver.Core.deps.json
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\netstandard2.0\MongoDB.Driver.Core.dll
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\netstandard2.0\MongoDB.Driver.Core.pdb
-E:\LandlordsCore\LandlordsCore-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\netstandard2.0\MongoDB.Driver.Core.csprojResolveAssemblyReference.cache
-E:\LandlordsCore\LandlordsCore-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\netstandard2.0\MongoDB.Driver.Core.csproj.CoreCompileInputs.cache
-E:\LandlordsCore\LandlordsCore-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\netstandard2.0\MongoDB.Driver.Core.AssemblyInfoInputs.cache
-E:\LandlordsCore\LandlordsCore-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\netstandard2.0\MongoDB.Driver.Core.AssemblyInfo.cs
-E:\LandlordsCore\LandlordsCore-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\netstandard2.0\MongoDB.Driver.Core.dll
-E:\LandlordsCore\LandlordsCore-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\netstandard2.0\MongoDB.Driver.Core.pdb

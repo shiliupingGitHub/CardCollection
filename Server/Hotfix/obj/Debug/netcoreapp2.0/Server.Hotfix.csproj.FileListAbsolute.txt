@@ -1,9 +1,0 @@
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\Hotfix.deps.json
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\Hotfix.dll
-E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\Hotfix.pdb
-E:\LandlordsCore\LandlordsCore-master\Server\Hotfix\obj\Debug\netcoreapp2.0\Server.Hotfix.csprojResolveAssemblyReference.cache
-E:\LandlordsCore\LandlordsCore-master\Server\Hotfix\obj\Debug\netcoreapp2.0\Server.Hotfix.csproj.CoreCompileInputs.cache
-E:\LandlordsCore\LandlordsCore-master\Server\Hotfix\obj\Debug\netcoreapp2.0\Server.Hotfix.AssemblyInfoInputs.cache
-E:\LandlordsCore\LandlordsCore-master\Server\Hotfix\obj\Debug\netcoreapp2.0\Server.Hotfix.AssemblyInfo.cs
-E:\LandlordsCore\LandlordsCore-master\Server\Hotfix\obj\Debug\netcoreapp2.0\Hotfix.dll
-E:\LandlordsCore\LandlordsCore-master\Server\Hotfix\obj\Debug\netcoreapp2.0\Hotfix.pdb
