@@ -1,0 +1,14 @@
+/Unity/Hotfix/obj
+/Unity/Library
+/Unity/Temp
+/Bin
+/Server/Model/obj
+/Server/Hotfix/obj
+/Server/Base/obj
+/Server/App/obj
+/Release
+/Logs
+/Server/ThirdParty/MongodbDriver/DotNetCoreDriver/MongoDB.Driver.Core/obj
+/Server/ThirdParty/MongodbDriver/DotNetCoreDriver/MongoDB.Driver/obj
+/Server/ThirdParty/MongodbDriver/DotNetCoreDriver/MongoDB.Bson/obj
+/.vs
