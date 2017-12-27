@@ -1,0 +1,13 @@
+E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\NLog.config
+E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\App.dll.config
+E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\App.deps.json
+E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\App.runtimeconfig.json
+E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\App.runtimeconfig.dev.json
+E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\App.dll
+E:\LandlordsCore\LandlordsCore-master\netcoreapp2.0\App.pdb
+E:\LandlordsCore\LandlordsCore-master\Server\App\obj\Debug\netcoreapp2.0\Server.App.csprojResolveAssemblyReference.cache
+E:\LandlordsCore\LandlordsCore-master\Server\App\obj\Debug\netcoreapp2.0\Server.App.csproj.CoreCompileInputs.cache
+E:\LandlordsCore\LandlordsCore-master\Server\App\obj\Debug\netcoreapp2.0\Server.App.AssemblyInfoInputs.cache
+E:\LandlordsCore\LandlordsCore-master\Server\App\obj\Debug\netcoreapp2.0\Server.App.AssemblyInfo.cs
+E:\LandlordsCore\LandlordsCore-master\Server\App\obj\Debug\netcoreapp2.0\App.dll
+E:\LandlordsCore\LandlordsCore-master\Server\App\obj\Debug\netcoreapp2.0\App.pdb

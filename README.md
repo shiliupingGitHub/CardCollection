@@ -1,0 +1,6 @@
+![Image text](https://raw.githubusercontent.com/Viagi/LandlordsCore/master/Doc/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![Image text](https://raw.githubusercontent.com/Viagi/LandlordsCore/master/Doc/%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%BB%93%E6%9E%84.png)
+![Image text](https://raw.githubusercontent.com/Viagi/LandlordsCore/master/Doc/%E7%BD%91%E5%85%B3%E6%9C%8D%E7%BB%93%E6%9E%84.png)
+![Image text](https://raw.githubusercontent.com/Viagi/LandlordsCore/master/Doc/%E7%99%BB%E5%BD%95%E6%9C%8D%E7%BB%93%E6%9E%84.png)
+![Image text](https://raw.githubusercontent.com/Viagi/LandlordsCore/master/Doc/%E5%8C%B9%E9%85%8D%E6%9C%8D%E7%BB%93%E6%9E%84.png)
+![Image text](https://raw.githubusercontent.com/Viagi/LandlordsCore/master/Doc/%E6%88%BF%E9%97%B4%E6%9C%8D%E7%BB%93%E6%9E%84.png)
