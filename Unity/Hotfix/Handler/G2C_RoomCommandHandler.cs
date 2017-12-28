@@ -10,7 +10,7 @@ namespace Hotfix
     [MessageHandler((int)Opcode.G2C_RoomCommand)]
     public class G2C_RoomCommandHandler : AMHandler<G2C_RoomCommand>
     {
-        protected override  async void Run(Session session, G2C_RoomCommand message)
+        protected override   void Run(Session session, G2C_RoomCommand message)
         {
             switch (message.GameType)
             {

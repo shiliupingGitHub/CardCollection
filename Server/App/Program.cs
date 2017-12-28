@@ -84,6 +84,7 @@ namespace App
 						Game.Scene.AddComponent<ActorProxyComponent>();
 						Game.Scene.AddComponent<ActorMessageDispatherComponent>();
 						Game.Scene.AddComponent<ServerFrameComponent>();
+                        Game.Scene.AddComponent<RoomComponent>();
 						break;
                     case AppType.Match:
                         Game.Scene.AddComponent<NetInnerComponent, IPEndPoint>(innerConfig.IPEndPoint);
