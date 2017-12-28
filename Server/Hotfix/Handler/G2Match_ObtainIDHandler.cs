@@ -8,7 +8,7 @@ namespace Hotfix
     [MessageHandler(AppType.Match)]
     public class G2Match_ObtainIDHandler : AMRpcHandler<G2Match_ObtainID, Match2G_ObtainId>
     {
-        protected override async void Run(Session session, G2Match_ObtainID message, Action<Match2G_ObtainId> reply)
+        protected override  void Run(Session session, G2Match_ObtainID message, Action<Match2G_ObtainId> reply)
         {
             Match2G_ObtainId response = new Match2G_ObtainId();
             try

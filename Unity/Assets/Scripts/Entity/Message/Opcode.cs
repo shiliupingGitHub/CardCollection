@@ -79,5 +79,7 @@
 
         G2Match_ObtainID,
         Match2G_ObtainId,
+        G2M_CreateRoom,
+        M2G_CreateRoom,
 	}
 }

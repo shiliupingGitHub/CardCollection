@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Model;
-
 namespace Hotfix
 {
     [MessageHandler((int)Opcode.G2C_RoomCommand)]
@@ -24,6 +23,7 @@ namespace Hotfix
                         }
                         UICowRoomComponent crc = ui.GetComponent<UICowRoomComponent>();
                         crc.DoCmd(message);
+                        
                     }
                     break;
             }

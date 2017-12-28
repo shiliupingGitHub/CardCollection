@@ -20,10 +20,12 @@ namespace Hotfix
                 IPEndPoint matchAddress = Game.Scene.GetComponent<StartConfigComponent>().MatchConfig.GetComponent<InnerConfig>().IPEndPoint;
                 Session matchSession = Game.Scene.GetComponent<NetInnerComponent>().Get(matchAddress);
                 Match2G_ObtainId obtainId = await matchSession.Call<Match2G_ObtainId>(new G2Match_ObtainID());
+                Session mapSession = Game.Scene.GetComponent<NetInnerComponent>().Get(obtainId.mAdrees);
+                M2G_CreateRoom m2g_creteroom = await mapSession.Call<M2G_CreateRoom>(new G2M_CreateRoom() { RoomId = obtainId.RoomId ,GameType = GameType.GT_Cow,playerInfo = player.mBaseInfo });
                 player.mapServer = obtainId.mAdrees;
-                response.ComandType = CommandType.CT_CreateRoom;
-                response.GameType = GameType.GT_Cow;
-                response.roomId = obtainId.RoomId;
+                player.RoomId = obtainId.RoomId;
+                response.command = m2g_creteroom.camand;
+
                 session.Send(response);
                // reply(response);
 

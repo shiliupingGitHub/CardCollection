@@ -20,16 +20,16 @@ namespace Hotfix
     public class UICowRoomComponent : Component
     {
 
-
+        Text RoomId;
         public void Awake()
         {
             ReferenceCollector rc = this.GetEntity<UI>().GameObject.GetComponent<ReferenceCollector>();
-       
+            RoomId = rc.Get<GameObject>("RoomId").GetComponent<Text>();
 
         }
         public  void DoCmd(G2C_RoomCommand cmd)
         {
-           
+            RoomId.text = "房间号:" + cmd.roomId;
         }
     }
 }

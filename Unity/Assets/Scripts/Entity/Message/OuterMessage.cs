@@ -145,13 +145,7 @@ namespace Model
     public class G2C_RoomCommand : AMessage
     {
         [ProtoMember(1)]
-        public int roomId;
-        [ProtoMember(2)]
-        public int ComandType;
-        [ProtoMember(3)]
-        public int GameType;
-        [ProtoMember(4)]
-        public string mComandContent;
+        public GameCommand command;
     }
 
     [ProtoContract]
@@ -226,9 +220,9 @@ namespace Model
 	{
 	}
 
-	[ProtoContract]
-	[Message(Opcode.R2C_Ping)]
-	public class R2C_Ping: AResponse
-	{
-	}
+    [ProtoContract]
+    [Message(Opcode.R2C_Ping)]
+    public class R2C_Ping : AResponse
+    {
+    }
 }

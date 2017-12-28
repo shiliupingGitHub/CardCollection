@@ -19,4 +19,21 @@ namespace Model{	public abstract partial class AMessage	{	}	public abstrac
         public int RoomId;
         public IPEndPoint mAdrees;
 
+    }
+
+
+    [Message(Opcode.G2M_CreateRoom)]
+    [BsonIgnoreExtraElements]
+    public class G2M_CreateRoom : ARequest
+    {
+        public int RoomId;
+        public int GameType;
+        public PlayerBaseInfo playerInfo;
+    }
+
+    [Message(Opcode.M2G_CreateRoom)]
+    [BsonIgnoreExtraElements]
+    public class M2G_CreateRoom : AResponse
+    {
+       public GameCommand camand;
     }}
