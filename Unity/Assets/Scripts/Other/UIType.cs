@@ -7,5 +7,7 @@
 		UILobby,
 	    UILoading,
         UIWater13,
+        UIGameSelect,
+        UICowCreateRoom,
 	}
 }

@@ -85,7 +85,11 @@ namespace App
 						Game.Scene.AddComponent<ActorMessageDispatherComponent>();
 						Game.Scene.AddComponent<ServerFrameComponent>();
 						break;
-					case AppType.AllServer:
+                    case AppType.Match:
+                        Game.Scene.AddComponent<NetInnerComponent, IPEndPoint>(innerConfig.IPEndPoint);
+                        Game.Scene.AddComponent<MatchComponent>();
+                        break;
+                    case AppType.AllServer:
 						Game.Scene.AddComponent<ActorProxyComponent>();
 						Game.Scene.AddComponent<PlayerComponent>();
 						Game.Scene.AddComponent<UnitComponent>();
@@ -107,6 +111,7 @@ namespace App
 						Game.Scene.AddComponent<NetOuterComponent>();
 						Game.Scene.AddComponent<BenchmarkComponent, IPEndPoint>(clientConfig.IPEndPoint);
 						break;
+          
 					default:
 						throw new Exception($"命令行参数没有设置正确的AppType: {startConfig.AppType}");
 				}

@@ -26,6 +26,8 @@
 		M2C_Reload,
 		C2R_Ping,
 		R2C_Ping,
+        C2G_CreateCow,
+        G2C_RoomCommand,
 
 		Actor_Test,
 		Actor_TestRequest,
@@ -74,5 +76,8 @@
 
 		M2M_TrasferUnitRequest,
 		M2M_TrasferUnitResponse,
+
+        G2Match_ObtainID,
+        Match2G_ObtainId,
 	}
 }

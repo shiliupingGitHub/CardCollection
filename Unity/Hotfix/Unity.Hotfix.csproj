@@ -253,6 +253,10 @@
     <Compile Include="Entity\UI.cs" />
     <Compile Include="Init.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\UICowCreateRoom\Component\UICowCreateRoomComponent.cs" />
+    <Compile Include="UI\UICowCreateRoom\Factory\UICowCreateRoomFactory.cs" />
+    <Compile Include="UI\UIGameSelect\Component\UIGameSelectCompont.cs" />
+    <Compile Include="UI\UIGameSelect\Factory\UIGameSelectFactory.cs" />
     <Compile Include="UI\UILobby\Component\UILobbyComponent.cs" />
     <Compile Include="UI\UILobby\Factory\UILobbyFactory.cs" />
     <Compile Include="UI\UILogin\Component\UILoginComponent.cs" />

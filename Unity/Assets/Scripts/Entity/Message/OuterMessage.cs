@@ -134,7 +134,25 @@ namespace Model
 	{
 	}
 
-	[ProtoContract]
+    [ProtoContract]
+    [Message(Opcode.C2G_CreateCow)]
+    public class C2G_CreateCow : ARequest
+    {
+    }
+
+    [ProtoContract]
+    [Message(Opcode.G2C_RoomCommand)]
+    public class G2C_RoomCommand : AResponse
+    {
+        [ProtoMember(1)]
+        public int roomId;
+        [ProtoMember(2)]
+        public int ComandType;
+        [ProtoMember(3)]
+        public int GameType;
+    }
+
+    [ProtoContract]
 	[Message(Opcode.G2C_EnterMap)]
 	public class G2C_EnterMap: AResponse
 	{

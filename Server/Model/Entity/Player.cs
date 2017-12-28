@@ -1,4 +1,6 @@
-﻿namespace Model
+﻿using System.Net;
+
+namespace Model
 {
 	[ObjectEvent]
 	public class PlayerEvent : ObjectEvent<Player>, IAwake<string>
@@ -14,8 +16,9 @@
 		public string Account { get; private set; }
 		
 		public long UnitId { get; set; }
+        public IPEndPoint mapServer { get; set; }
 
-		public void Awake(string account)
+        public void Awake(string account)
 		{
 			this.Account = account;
 		}

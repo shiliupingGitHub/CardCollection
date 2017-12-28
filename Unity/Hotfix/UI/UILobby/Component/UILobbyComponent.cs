@@ -22,24 +22,29 @@ namespace Hotfix
 		public void Awake()
 		{
 			ReferenceCollector rc = this.GetEntity<UI>().GameObject.GetComponent<ReferenceCollector>();
-            Button btn_enterroom = rc.Get<GameObject>("btn_enterroom").GetComponent<Button>();
-            btn_enterroom.onClick.Add(this.EnterMap);
+            Button btn_createroom = rc.Get<GameObject>("btn_createroom").GetComponent<Button>();
+            btn_createroom.onClick.Add(() =>
+            {
+   
+                     Hotfix.Scene.GetComponent<UIComponent>().Create(UIType.UIGameSelect);
+            });
+
 
         }
 
 
-		private async void EnterMap()
-		{
-			try
-			{
-				G2C_EnterMap g2CEnterMap = await SessionComponent.Instance.Session.Call<G2C_EnterMap>(new C2G_EnterMap());
-				Hotfix.Scene.GetComponent<UIComponent>().Remove(UIType.UILobby);
-                Hotfix.Scene.GetComponent<UIComponent>().Create(UIType.UIWater13);
-			}
-			catch (Exception e)
-			{
-				Log.Error(e.ToStr());
-			}	
-		}
+		//private async void EnterMap()
+		//{
+		//	try
+		//	{
+		//		G2C_EnterMap g2CEnterMap = await SessionComponent.Instance.Session.Call<G2C_EnterMap>(new C2G_EnterMap());
+		//		Hotfix.Scene.GetComponent<UIComponent>().Remove(UIType.UILobby);
+  //              Hotfix.Scene.GetComponent<UIComponent>().Create(UIType.UIWater13);
+		//	}
+		//	catch (Exception e)
+		//	{
+		//		Log.Error(e.ToStr());
+		//	}	
+		//}
 	}
 }
