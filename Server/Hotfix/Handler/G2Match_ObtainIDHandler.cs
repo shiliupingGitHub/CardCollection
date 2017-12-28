@@ -15,6 +15,8 @@ namespace Hotfix
             {
                 MatchComponent.MatchInfo mi = Game.Scene.GetComponent<MatchComponent>().CreateRoomInfo();
                  response.RoomId = mi.RoomId;
+                response.mAdrees = mi.Adress;
+                reply(response);
 
 
             }

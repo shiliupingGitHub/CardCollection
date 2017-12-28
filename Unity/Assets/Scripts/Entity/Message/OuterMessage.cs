@@ -136,13 +136,13 @@ namespace Model
 
     [ProtoContract]
     [Message(Opcode.C2G_CreateCow)]
-    public class C2G_CreateCow : ARequest
+    public class C2G_CreateCow : AMessage
     {
     }
 
     [ProtoContract]
     [Message(Opcode.G2C_RoomCommand)]
-    public class G2C_RoomCommand : AResponse
+    public class G2C_RoomCommand : AMessage
     {
         [ProtoMember(1)]
         public int roomId;
@@ -150,6 +150,8 @@ namespace Model
         public int ComandType;
         [ProtoMember(3)]
         public int GameType;
+        [ProtoMember(4)]
+        public string mComandContent;
     }
 
     [ProtoContract]

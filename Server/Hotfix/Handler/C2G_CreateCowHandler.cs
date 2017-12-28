@@ -6,9 +6,11 @@ using System.Net;
 namespace Hotfix
 {
     [MessageHandler(AppType.Gate)]
-    public class C2G_CreateCowHandler : AMRpcHandler<C2G_CreateCow, G2C_RoomCommand>
+    public class C2G_CreateCowHandler : AMHandler<C2G_CreateCow>
     {
-        protected override async void Run(Session session, C2G_CreateCow message, Action<G2C_RoomCommand> reply)
+ 
+
+        protected override async void Run(Session session, C2G_CreateCow message)
         {
             G2C_RoomCommand response = new G2C_RoomCommand();
             try
@@ -22,7 +24,8 @@ namespace Hotfix
                 response.ComandType = CommandType.CT_CreateRoom;
                 response.GameType = GameType.GT_Cow;
                 response.roomId = obtainId.RoomId;
-                reply(response);
+                session.Send(response);
+               // reply(response);
 
                 // 在map服务器上创建战斗Unit
                 //IPEndPoint mapAddress = Game.Scene.GetComponent<StartConfigComponent>().MapConfigs[0].GetComponent<InnerConfig>().IPEndPoint;
@@ -35,10 +38,9 @@ namespace Hotfix
             }
             catch (Exception e)
             {
-                ReplyError(response, e, reply);
+                
+               // ReplyError(response, e, reply);
             }
         }
-
-    
     }
 }

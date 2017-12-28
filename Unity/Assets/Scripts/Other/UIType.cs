@@ -9,5 +9,6 @@
         UIWater13,
         UIGameSelect,
         UICowCreateRoom,
-	}
+        UICowRoom,
+    }
 }
